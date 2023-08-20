@@ -1,0 +1,39 @@
+what is mui?
+
+->Material UI is an open-source React component library that implements Google's Material Design.
+
+Some important Components
+
+1.Button
+three main variant :Text contained outlined
+
+<Button variant="contained">
+
+2.Text Field
+Text fields allow users to enter text into a UI. They typically appear in forms and dialogs.
+
+3.Typography
+
+Too many type sizes and styles at once can spoil any layout. A typographic scale has a limited set of type sizes that work well together along with the layout grid.
+
+4.Box
+
+The Box component serves as a wrapper component for most of the CSS utility needs.
+
+5.The sx prop
+
+All system properties are available via the sx prop. In addition, the sx prop allows you to specify any other CSS rules you may need. Here's an example of how you can use it:
+
+<Box
+      sx={{
+        width: 300,
+        height: 300,
+        backgroundColor: 'primary.dark',
+        '&:hover': {
+          backgroundColor: 'primary.main',
+          opacity: [0.9, 0.8, 0.7],
+        },
+      }}
+    />
+
+    

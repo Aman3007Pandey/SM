@@ -1,0 +1,9 @@
+import {usenavigate} from "react-router-dom";
+
+Pass the path you want to navigate as the first argument and an optional object as the second argument.
+
+const navigate=useNavigate();
+
+navigate("/homePage,{state:{message:"Failed to submit},replace:true})
+
+If you set the value of replace to true, React router will replace the current entry in the history stack instead of adding a new one. Both state and replace fields are optional.
